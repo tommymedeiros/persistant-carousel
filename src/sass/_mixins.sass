@@ -1,0 +1,27 @@
+// Simplicifa o uso dos mixins de border-radius do Bourbon
+=border-radius($radius)
+  +border-bottom-radius($radius)
+  +border-left-radius($radius)
+  +border-right-radius($radius)
+  +border-top-radius($radius)
+
+// Remove o 'gutter'
+=no-gutter($sp)
+  width: $grid * $sp
+
+=no-gutter-has-dock($sp)
+  width: calc($grid * $sp - $dock)
+
+// Determina o equivalente do font-size em px nos IE7 e IE8
+=font-size($size)
+  font-size: $size + rem
+  .ie7 &,
+  .ie8 &
+    font-size: ($size * 10) + px
+
+// Determina o equivalente do font-size em px nos IE7 e IE8
+=line-height($size)
+  line-height: $size + rem
+  .ie7 &,
+  .ie8 &
+    line-height: ($size * 10) + px

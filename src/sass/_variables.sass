@@ -1,0 +1,44 @@
+// Cores
+$alaranjado: #ff9955
+$bege: #ebe7d4
+$bege-claro: #f8f6e7
+$bege-escuro: #e0dbbd
+$cinza: #696868
+$cinza-branco: #ededed
+$cinza-claro: #a4a4a4
+$cinza-escuro: #282828
+$marrom: #544a3c
+$marrom-escuro: #373635
+$verde: #79a141
+
+// Medidas
+$barra: 41px // A automatizar
+$barra-escola: 55px
+$borda: 6px
+$dock: 30px
+$dock-margin-top: 62px // 68px
+$footer: 100px
+$grid: 8.3333%
+$header: 75px
+$header-home: 150px
+$main-home: 320px
+$slider: 400px
+$slider-home: 500px
+$thumb: 164px
+
+// Cor de fundo da coluna lateral
+$coluna-esquerda: linear-gradient(to right, $bege-claro 0%, $bege-claro $grid * 3 * 97 / 100, transparent $grid * 3 * 97 / 100, transparent 100%)
+$coluna-esquerda-has-dock: linear-gradient(to right, $bege-claro 0%, $bege-claro calc(#{$grid} * 3 * 96 / 100 + #{$dock}), transparent calc(#{$grid} * 3 * 96 / 100 + #{$dock}), transparent 100%)
+$coluna-esquerda-mobile: linear-gradient(to right, $bege-claro 0%, $bege-claro $grid * 4 * 97 / 100, transparent $grid * 4 * 97 / 100, transparent 100%)
+$coluna-direita: linear-gradient(to left, $bege-claro 0%, $bege-claro 8.3333%, transparent 8.3333%, transparent 100%) // (to left, $bege-claro 0%, $bege-claro 16.6666%, transparent 16.6666%, transparent 100%)
+
+// Sombras
+$sombra-barra: 2px 2px 0px 0px rgba(0,0,0,.1)
+$sombra-barra-has-dock: ($dock + 2px) 2px 0px 0px rgba(0,0,0,.1) // 2px extras de deslocamento horizontal para nao acumular uma sobra sobre a outra
+$sombra-dock: 2px $dock-margin-top 0px 0px rgba(0,0,0,.1)
+$sombra-dock-course: 2px ($dock-margin-top + $barra-escola) 0px 0px rgba(0,0,0,.1)
+$sombra-input-text: inset 6px 8px 0px -4px rgba(0,0,0,.1)
+$sombra-input-submit: 2px 2px 0px 0px rgba(0,0,0,.1)
+$sombra-interna-inferior: inset 0px -4px 8px -4px rgba(0,0,0,.1)
+$sombra-interna-superior: inset 0px 6px 10px -4px rgba(0,0,0,.1)
+$sombra-extensa: -5px 10px 30px rgba(0,0,0,.1)

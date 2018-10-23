@@ -1,0 +1,35 @@
+// Formata os elementos do .loginform
+%loginform
+  .username
+    &:before
+      content: url([[pix:theme|icone_usuario_login_home]])
+  .username,
+  .password
+    position: relative
+    &:before
+      left: -20px
+      margin-top: -8px // Metade da altura do icone
+      position: absolute
+      top: 50%
+  .password
+    &:before
+      content: url([[pix:theme|icone_senha_login_home]])
+  .recupera-senha
+    a
+      color: $verde
+  .recupera-senha,
+  .rememberusername label
+    font-size: 1.1rem
+    text-transform: uppercase
+  .rememberusername
+    input[type="checkbox"]
+      margin: -2px 0 0
+    label
+      color: mix($cinza, $cinza-claro)
+      padding-left: 0
+
+// Configura o posicionamento dos icones na navegacao e acesso
+%posicao-icone
+  display: inline-block
+  line-height: normal
+  vertical-align: middle

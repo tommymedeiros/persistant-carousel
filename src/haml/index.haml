@@ -1,0 +1,31 @@
+!!! 5
+%html
+  %head
+    %title Carousel
+  %body
+    %h1 Carousel
+    /= Haml::Engine.new(File.read("/haml/_carousel.haml")).render
+    /
+      Slideshow da entrada da escola
+      O primeiro 'figure' e primeiro 'li' precisam da classe 'ativo';
+      todo o funcionamento do slideshow estah distribuido pelos arquivos 'slider.php' (este),
+      'slider.js' (concatenado em 'esaf.min.js') e '_slider.sass' (compilado para 'esaf.min.css').
+    %div
+      %div{:id=>"slider"}
+        %figure{:class=>"active"}
+          %img{:src=>"..."}
+        %figure
+          %img{:src=>"..."}
+        %figure
+          %img{:src=>"..."}
+        %figure
+          %img{:src=>"..."}
+        %span{:class=>"previous"}
+          &laquo;
+        %span{:class=>"next"}
+          &raquo;
+      %ul{:class=>"controls"}
+        %li{:class=>"active"}
+        %li
+        %li
+        %li
