@@ -6,9 +6,9 @@ fr: Un très simple carrousel que ne s'arrête jamais.
 
 ## Notes
 
-en: Due to my contractual privacy agreement with [SERPRO](http://serpro.gov.br), my last employer, I can only display online parts of the code that are explicitly written by me, excluding the core parts deeply linked to protected content, usually HTML and PHP files. The files presented here are not enough to demonstrate a working project, but are enough to evaluate my way of structuring a project and writing codes.
+en: It is necessary to add images to see it working.
 
-fr: En raison de mon contrat de confidentialité avec [SERPRO](http://serpro.gov.br), mon dernier employeur, je ne peux pas mettre en ligne que des morceaux de code que j'ai écrit, principalement des morceaux profondément liés à des contenus protégés, généralement des fichiers HTML et PHP. Les fichiers affichés ici ne sont pas suffisants pour démontrer un projet en plein fonctionnement, mais sont suffisants pour évaluer ma manière de structurer un projet et d'écrire des codes.
+fr: Il faut ajouter des images pour le voir en fonctionnement.
 
 ## Built With
 
